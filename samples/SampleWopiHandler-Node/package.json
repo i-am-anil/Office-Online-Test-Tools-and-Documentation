@@ -1,0 +1,20 @@
+{
+  "name": "sample-wopi-handler",
+  "version": "1.0.0",
+  "description": "Sample WOPI host for Office for the Web (Node.js / Express port)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "rsa-pem-from-mod-exp": "^0.8.6"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}

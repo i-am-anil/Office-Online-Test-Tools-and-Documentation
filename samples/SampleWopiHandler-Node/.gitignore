@@ -1,0 +1,4 @@
+node_modules/
+wopi-storage/*
+!wopi-storage/.gitkeep
+tests/tmp-wopi-storage/
